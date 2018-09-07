@@ -51,4 +51,13 @@ body {
   transform: rotate(90deg);
   transition: all 0.5s;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+
+  &.hour-hand {
+    width: 30%;
+    left: 20%;
+  }
+
+  &.second-hand {
+    height: 2px;
+  }
 }
